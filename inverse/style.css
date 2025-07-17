@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 13rem;
+    font-size: 4rem;
+}
+
+.countdown{
+ font-size: 5rem;
+ padding: 1rem;
+}
+
+.reset{
+    color: red;
+}
+
+.start{
+    color: green;
+}
+
+.pause{
+    color: rgb(126, 126, 1);
+}
+
+button:hover{
+    font-size: 17px;
+    transition-duration: 700ms;
+}
