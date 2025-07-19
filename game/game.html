@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./game.css">
+    <title>game</title>
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.5/dist/js.cookie.min.js"></script>
+
+</head>
+
+<body>
+    <div class="form">
+        <div class="userform">
+            <div class="userturn">user</div>
+            <form class="user">
+                <button class="button" type="button" onclick="Move('rock')">ROCK</button>
+                <button class="button" type="button" onclick="Move('paper')">PAPER</button>
+                <button class="button" type="button" onclick="Move('scissors')">SCISSORS</button>
+            </form>
+            <div class="userscore">0</div>
+        </div>
+
+        <div class="systemform">
+
+            <div class="systemturn">system</div>
+            <form class="system">
+                <button class="button" type="button" onclick="systemm()">click to see system selection</button>
+            </form>
+
+            <div class="systemscore">0</div>
+
+        </div>
+        <button class="button" type="button" onclick="restart()">restart</button>
+    </div>
+
+    <script src="./game.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin-top: 20rem;
+
+}
+
+.form .userform .userscore {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    color: rgb(3, 3, 125);
+}
+
+.form .systemform .systemscore {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    color: rgb(3, 3, 125);
+}
+
+.form .userform .userturn {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+
+}
+
+.form .systemform .systemturn {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+button {
+    box-shadow: 2px 3px rgb(186, 186, 234);
+}
+
+button:hover {
+    font-size: 14px;
+    transition-duration: 700ms;
+}
