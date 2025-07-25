@@ -1,6 +1,6 @@
 # JavaScript Practice Projects
 
-This repository contains several small JavaScript projects and exercises designed to help practice and learn different concepts.
+This repository contains several JavaScript projects and exercises designed to help practice and learn different concepts.
 
 ## Project Structure
 
