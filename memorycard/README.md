@@ -1,4 +1,4 @@
-# 🧠📋 MemoryCard Card
+# 🧠📋 MemoryCard 
 
 A simple web application for storing and displaying countries and their capitals using **JavaScript** and **browser cookies**.
 
