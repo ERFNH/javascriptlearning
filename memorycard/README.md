@@ -1,4 +1,4 @@
-# 🧠📋 MemoryCard 
+# 🧠📋 MemoryCard
 
 A simple web application for storing and displaying countries and their capitals using **JavaScript** and **browser cookies**.
 
@@ -23,3 +23,6 @@ A simple web application for storing and displaying countries and their capitals
 - CSS3
 - JavaScript (Vanilla)
 - Browser Cookies (JSON format)
+
+## Screenshot
+![screenshot](./assets/screenshot.png)
