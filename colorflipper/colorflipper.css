@@ -1,0 +1,40 @@
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+
+  .colorfipper {
+      text-align: center;
+      font-size: 3rem;
+      color: rgb(34, 74, 99);
+      box-shadow: #052db317 0px 4px 3px;
+  }
+
+  .all {
+      display: flex;
+      height: 100vh;
+  }
+
+  .simple {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+  }
+
+  .hex {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+  }
+
+  .button {
+      margin: 1rem;
+      width: 5rem;
+      font-size: 1rem;
+      border-radius: 1rem;
+  }
