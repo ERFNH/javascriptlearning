@@ -1,0 +1,19 @@
+.counter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    font-size: 1.5rem;
+}
+
+#zero {
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+
+.btn {
+    font-size: 25px;
+    margin: 8px;
+    border-radius: 15px;
+}
