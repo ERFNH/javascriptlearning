@@ -1,0 +1,68 @@
+body {
+  background-color: rgb(213, 222, 215);
+}
+
+.title h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  text-align: center;
+  margin-top: 9rem;
+}
+
+.title .underline {
+  width: 3rem;
+  height: 4px;
+  background-color: rgb(111, 192, 127);
+  border-radius: 1rem;
+  margin: 0.5rem auto 0 auto;
+}
+
+.review {
+  margin: 2rem auto 0 auto;
+  background-color: rgb(229, 230, 231);
+  width: 23rem;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 10px;
+}
+
+#person-img {
+  width: 6rem;
+  height: 7rem;
+  object-fit: cover;
+  border-radius: 40%;
+}
+
+#author {
+  font-size: 22px;
+  margin-bottom: 1px;
+}
+#job {
+  margin-top: 10px;
+  color: rgb(37, 162, 60);
+  font-size: 22px;
+}
+
+.button-container {
+  position: relative;
+}
+
+.button-container button {
+  position: absolute;
+  border: none;
+  cursor: pointer;
+  color: rgb(37, 162, 60);
+  background-color: rgb(229, 230, 231);
+  transform: translateY(-230%);
+}
+
+.prev-btn {
+  left: 1px;
+}
+
+.next-btn {
+  right: 1px;
+}
