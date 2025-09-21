@@ -1,0 +1,51 @@
+body {
+  background-image: url("image/imagee.webp");
+}
+
+.banner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  height: 250px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.model-btn {
+  background-color: rgb(68, 88, 125);
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.model2 {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  place-items: center;
+  visibility: hidden;
+  z-index: -10;
+  inset: 0;
+}
+.model-container {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 200px;
+  text-align: center;
+  position: relative;
+  background-color: rgb(127, 143, 172);
+}
+
+.open-modal {
+  visibility: visible;
+  z-index: 10;
+}
